@@ -9,7 +9,16 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'page-color': '#04152d',
+        'yellow-dif': '#f9e98f',
+        'new-gray': '#b0b0b0'
+      },
+      fontSize: {
+        '2.5xl': '28px',  // Custom font size of 28px
+      },
+    },
   },
   plugins: [],
 }
