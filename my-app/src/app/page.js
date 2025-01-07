@@ -1,10 +1,19 @@
 import Image from "next/image";
 import "./styles/main.scss";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
 
 export default function Home() {
   return (
     <div className="main-page">
-      <h1 className="tittle-main">My Tittle</h1>
+      <Navbar></Navbar>
+      <About></About>
+
+
+
+
+
+      {/* <h1 className="tittle-main">My Tittle</h1>
 
       <div className="aboutme">
         <div className="aboutme-text">
@@ -31,7 +40,7 @@ export default function Home() {
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGb7QHioHCZrCj9TcW7hS3NYiLAsK6knnn4g&s" alt="" />
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGb7QHioHCZrCj9TcW7hS3NYiLAsK6knnn4g&s" alt="" />
         </div>
-      </div>
+      </div> */}
 
     </div>
   );
