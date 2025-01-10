@@ -26,8 +26,36 @@ export default function About() {
         </div>
       </div>
 
-      <div className=""> 
-      <h3>About Me</h3>
+      <div className="bg-dark-page-color mt-10 border border-1">
+        <p className="text-5xl text-center pt-8">About Me</p>
+        <div className="border border-1 flex mt-24 justify-center items-center">
+          <div className="border border-1">
+            <Image
+              src="/images/jony.png"
+              alt="Jony"
+              width={400}
+              height={400}
+            />
+          </div>
+          <div className="border border-1">
+            <div className="flex justify-center mt-10">
+              <div className="border border-1 p-6">
+                <p>aaaaaa aaaaaa</p>
+                <p>aaaaaa aaaaaa</p>
+              </div>
+              <div className="border border-1 p-6">
+                <p>bbbbb cccccc</p>
+                <p>bbbbb cccccc</p>
+              </div>
+            </div>
+            <p className="mt-10 max-w-3xl ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+              dolores inventore hic eaque explicabo iusto voluptatum accusamus,
+              doloremque deleniti accusantium earum repudiandae doloribus
+              reiciendis quis libero? Ea quos quibusdam odit.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

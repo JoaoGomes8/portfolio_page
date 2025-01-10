@@ -13,6 +13,9 @@ export default function Skills() {
         <CardSkills text={"React"} image={"/images/react.png"}></CardSkills>
         <CardSkills text={"Vue"} image={"/images/vue.png"}></CardSkills>
         <CardSkills text={"Node"} image={"/images/node.png"}></CardSkills>
+        {/* alterar img */}
+        <CardSkills text={"Figma"} image={"/images/node.png"}></CardSkills>
+        <CardSkills text={"Bootstrap"} image={"/images/node.png"}></CardSkills>
       </div>
     </div>
   );

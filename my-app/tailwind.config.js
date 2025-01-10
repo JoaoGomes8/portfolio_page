@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       colors: {
         'page-color': '#04152d',
+        'dark-page-color': '#030F23',
         'secondary-page': '#112a45',
         'tertiary-page': '#1a3450 ',
         'yellow-dif': '#f9e98f',
