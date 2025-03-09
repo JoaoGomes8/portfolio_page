@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <div>
-      <div className="flex gap-32">
+      <div className="flex gap-32 mt-20">
         <div className="flex-1 flex justify-end">
           <div className="bg-yellow-dif rounded-full">
             <Image src="/images/jony.png" alt="Jony" width={400} height={400} />
@@ -26,26 +26,32 @@ export default function About() {
         </div>
       </div>
 
-      <div className="bg-dark-page-color mt-10 border border-1">
-        <p className="text-5xl text-center pt-8">About Me</p>
-        <div className="border border-1 flex mt-24 justify-center items-center">
-          <div className="border border-1">
+      <div className=" mt-40 scroll-mt-10" id="about">
+        <p className=" text-lg text-new-gray text-center">Get To Know More</p>
+        <p className="text-5xl text-center mt-4">About Me</p>
+        <div className="flex mt-12 justify-center items-center gap-8">
+          <div className="basis-2/5 flex justify-end">
             <Image
+            className="bg-dark-page-color rounded-3xl"
               src="/images/jony.png"
               alt="Jony"
-              width={400}
-              height={400}
+              width={450}
+              height={450}
             />
           </div>
-          <div className="border border-1">
-            <div className="flex justify-center mt-10">
-              <div className="border border-1 p-6">
-                <p>aaaaaa aaaaaa</p>
-                <p>aaaaaa aaaaaa</p>
+          <div className="basis-3/5 px-6">
+            <div className="flex justify-start mt-10 gap-10 text-center">
+              <div className="border border-1 rounded-3xl py-6 px-20">
+                <p>---</p>
+                <p>Experience</p>
+                <p>2+ years</p>
+                <p>Frontend Development</p>
               </div>
-              <div className="border border-1 p-6">
-                <p>bbbbb cccccc</p>
-                <p>bbbbb cccccc</p>
+              <div className="border border-1 rounded-3xl py-6 px-20">
+              <p>---</p>
+                <p>Experience</p>
+                <p>2+ years</p>
+                <p>Frontend Development</p>
               </div>
             </div>
             <p className="mt-10 max-w-3xl ">
