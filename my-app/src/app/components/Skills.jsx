@@ -2,7 +2,7 @@ import CardSkills from "./CardSkills";
 
 export default function Skills() {
   return (
-    <div className="mt-20 text-5xl mx-auto w-fit mb-60">
+    <div className="mt-20 text-5xl mx-auto w-fit mb-60 scroll-mt-10" id="experience">
       <h1 className="text-center mb-10 ">Experience</h1>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4 sm:gap-10 md:gap-12 mx-auto w-fit">
         <CardSkills text={"Html & Css"} image={"/images/html.png"}></CardSkills>
